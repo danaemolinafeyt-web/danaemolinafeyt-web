@@ -1,0 +1,18 @@
+name: Waka Readme                # label shown in the Actions tab
+
+on:                              # TRIGGERS — when does this run?
+  workflow_dispatch:             # adds a manual "Run workflow" button (for testing)
+  schedule:
+    - cron: "0 7 * * *"          # automatic daily run # daily at midnight pacific
+
+jobs:                            # WHAT runs
+  update-readme:                 # a job name you choose
+    name: WakaReadme DevMetrics
+    runs-on: ubuntu-latest       # WHERE — a fresh Linux machine from GitHub
+    steps:
+      - uses: athul/waka-readme@master    # a ready-made Action someone else wrote
+        with:                             # settings passed into that Action
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}   # pulled from the vault
+          TIME_RANGE: last_7_days         # matches your "This Week" heading
+          SHOW_TOTAL: true                # shows total hours at the top
+          SHOW_TITLE: true                # shows the date range
