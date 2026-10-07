@@ -17,8 +17,6 @@ Python · SQL · pandas · scikit-learn · Jupyter · SQLite · Git
 ```txt
 From: 30 September 2026 - To: 07 October 2026
 
-Total Time: 1 hr 55 mins
-
 Python   55 mins               ██████████░░░░░░░░░░░░░░░   39.89 %
 SQL      21 mins               ████░░░░░░░░░░░░░░░░░░░░░   15.93 %
 ```
