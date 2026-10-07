@@ -14,6 +14,6 @@ jobs:                            # WHAT runs
         with:                             # settings passed into that Action
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}   # pulled from the vault
           TIME_RANGE: last_7_days         # matches your "This Week" heading
-          SHOW_TOTAL: true                # shows total hours at the top
+          SHOW_TOTAL: false                # off until mislabeled time ages out (~Oct 14)
           SHOW_TITLE: true                # shows the date range
           IGNORED_LANGUAGES: Groff Other  # hide mislabeled DBeaver time
