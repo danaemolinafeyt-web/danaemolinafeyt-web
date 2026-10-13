@@ -15,10 +15,10 @@ Python · SQL · pandas · scikit-learn · Jupyter · SQLite · Git
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 October 2026 - To: 12 October 2026
+From: 06 October 2026 - To: 13 October 2026
 
-Python   2 hrs 53 mins         ███████████░░░░░░░░░░░░░░   44.47 %
-SQL      2 hrs 20 mins         █████████░░░░░░░░░░░░░░░░   36.19 %
+Python   2 hrs 29 mins         ███████████▒░░░░░░░░░░░░░   45.70 %
+SQL      2 hrs 5 mins          █████████▓░░░░░░░░░░░░░░░   38.35 %
 ```
 
 <!--END_SECTION:waka-->
