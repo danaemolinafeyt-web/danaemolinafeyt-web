@@ -15,7 +15,7 @@ Python · SQL · pandas · scikit-learn · Jupyter · SQLite · Git
 <!--START_SECTION:waka-->
 
 ```txt
-From: 12 November 2026 - To: 19 November 2026
+From: 13 November 2026 - To: 20 November 2026
 
 Python   10 mins               █████████████████████████   100.00 %
 ```
